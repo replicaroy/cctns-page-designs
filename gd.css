@@ -1,0 +1,68 @@
+*{
+    margin: 0; padding: 0; box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: 11px;
+}
+.bold{
+    font-weight: bold; font-family: Arial, Helvetica, sans-serif;
+}
+.welcome>table{   
+    width: 70%; font-size: 11px; margin: 0 auto;
+}
+.menu{
+    background-image: url(/IMAGES/menu-bg.jpg); width: 98%; margin: 0 auto;
+    height: 30px; margin-top: 10px;  
+}
+.navbar>ul{
+    padding: 0; margin: 0; display: flex; align-items: center;justify-content: center;  line-height: 14px;   
+}
+.navbar>ul>li{
+    list-style: none;  border-right: 2px solid white; 
+}
+.navbar>ul>li>a{
+    text-decoration: none; color: white; padding: 9px; font-weight: bold; font-size: 13px;     
+}
+.sublist{
+    position: absolute;  top: 30px; background-color: rgb(219, 224, 239); border: 1px solid;
+    display: none; 
+}
+
+.sublist2{
+    position: absolute;  top: 0px;  left:210px; background-color: rgb(219, 224, 239); border: 1px solid;
+    display: none; width: 300px;
+}
+
+
+.navbar ul li:hover .sublist{
+    display: block;
+}
+
+.navbar ul li ul li:hover .sublist2{
+    display: block;
+}
+.sublist li{
+    list-style: none; padding: 0; padding: 5px; 
+}
+.sublist li a{
+    text-decoration: none; margin-left: -20px; color: black; font-size: 12px;
+}
+.sublist li a:hover {
+    border-bottom: 1px solid; 
+}
+#gd-table{
+    width: auto; margin: 10px 0 0px 20px; 
+}
+.label{
+    font: 14px/normal Tahoma, Arial, Helvetica, sans-serif;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    background-color: rgb(211, 216, 243);
+    color: #000000;
+    font-size: 11px;
+    padding: 0;
+    outline: none;
+    margin: 0;
+
+}
+
+table{
+    border: 1px solid black;
+}

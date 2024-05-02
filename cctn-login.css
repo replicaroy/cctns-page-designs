@@ -1,0 +1,92 @@
+
+.header-logo
+{
+    margin-top: 10px;
+}
+.header-logo>img
+{
+    width: 100%;
+}
+.header-headline
+{
+    background-color:beige; text-align: center; font-size: 25px;
+}
+.card
+{
+    border: 1px solid gray; width: 30rem; min-height: 40rem;  margin-top: 40px;
+}
+.captcha
+{
+    display: inline;
+}
+.captcha-p
+{
+   background-image: url("/IMAGES/1.jpeg"); display: inline-block; color: rgb(11, 8, 113);
+   width: 8rem; height:2.3rem; text-align: center; line-height: 2rem; font-size:25px; 
+    letter-spacing: 7px;
+}
+.space
+{
+    word-spacing: 10px;
+}
+#validshow
+{
+    display: none; color: red; font-size: 12px;
+}
+#validpass
+{
+    display: none; color: red; font-size: 12px;
+}
+#showcap
+{
+    display: none; color: red; font-size: 12px;
+}
+#showcap2
+{
+    display: none; 
+}
+
+.lang
+{
+    display: inline-block; 
+    
+}
+.btn:hover{
+    box-shadow: 0 0 12px rgb(177, 169, 49);
+}
+
+#sso a{
+    text-decoration: none;
+}
+#sso a:hover{
+    border-bottom: 1px solid blue;
+    color: rgb(23, 13, 214);
+}
+.btn:hover{
+    box-shadow: 0 0 12px rgb(49, 87, 177);
+}
+.footer{
+    background-color: #fff3cd;
+    padding: 12px; color: rgb(76, 40, 40);
+}
+.footer a{
+    text-decoration: none; 
+    color: rgb(76, 40, 40);
+}
+.footer a:hover{
+     
+    border-bottom: 1px solid blue;
+    color: rgb(23, 13, 214);
+}
+.main-footer{
+    background-color: indigo; margin-top: 150px; height: 12vh;
+    padding: 20px; color: white; text-align: center;    
+}
+.main-footer p{
+    margin-bottom: 0;
+    
+}
+#validpass1{
+    display: none; color: red;
+}
+
